@@ -36,7 +36,7 @@ The projects main task is to simplify the process of creating static posts witho
 - Created some basic init-styling in CSS for the post-components.
 - Created a Javascript example for the client for fetching the posts.
 
-## TODO(?) (Ideas): ❔
+## TODO(?) (Ideas): ❓
 
 - Create an 'updateTemplate()' function that updates all the posts with a new template provided.
 - Create an 'updateJSON()' function, in case the user accidently removes the file.
@@ -47,7 +47,7 @@ The projects main task is to simplify the process of creating static posts witho
 - Maybe add support for different HTML templates like Pug, Handlebars etc.? (probably a hairy goal, but could be fun)
 - Create env-commands for executing program.
 - Learn how to properly create a NPM package.
-- Set up test enviroments and other practical stuff.
+- Set up test enviroments and other practical stuff that i know nothing about.
 - Come up with tons of more ideas.
 
 
