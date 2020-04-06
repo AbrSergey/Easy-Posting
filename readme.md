@@ -9,7 +9,7 @@ I became fascinated and inspired by the concept, and thought: "Hmm, something li
 
 The main foucus areas for my projects are always simple and intuitive designs.
 When i sat down and started working on this, i challenged myself to come up with a solution that
-even the freshest of programmers would understand how to use. I'm not saying that i have completed this,
+even the freshest of programmers could understand how to use. I'm not saying that i have completed this,
 but i think that the approach i've chosen is at least in the right direction. I've also tried to come up with a
 'language' for the post-writing, as this project is aimed for being simplified (but comprehensive enough for most usage).
 There not a lot of syntax yet, but i've tried to create the source-code so that adding more syntax is easy.
