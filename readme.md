@@ -45,9 +45,9 @@ The projects main task is to simplify the process of creating static posts witho
 - Come up with more ideas.
 
 
-### 
 
-If you have any questions, or want to join in on this little open-source project, then send me an 📧 at mathiaswpicker@gmail.com
+
+#### If you have any questions, or want to join in on this little open-source project, then send me an 📧 at mathiaswpicker@gmail.com
 
 Have a nice day!
 
