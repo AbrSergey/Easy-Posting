@@ -1,6 +1,6 @@
 /**
  * This program creates the post page from the html template and post document. It automatically creates a 'posts' folder in the root of the
- * project (or if already exoists, uses this one) and creates a folder there with the name of the post. Within this folder will a
+ * project (or if already exists, uses that one) and creates a folder there with the name of the post. Within this folder will a
  * index.html file be created.
  *
  * The idea of the program is that we take in an HTML-file which serves as a template.
