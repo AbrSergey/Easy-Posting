@@ -1,4 +1,4 @@
-NOTE: This readme is very rough. I've just written down things when i come up with them so i don't forget.
+NOTE: This readme is very rough. I've just written down things when i come up with them so i don't forget them.
 
 Post creation:
 
