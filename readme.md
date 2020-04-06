@@ -22,7 +22,7 @@ I would love to collaborate with people that i can learn from, and maybe create 
 
 # Project description
 
-The projects main task is to simplifies the process of creating posts without the need of a server. By passing in a html template and a text document with a syntax that the tool understands, will the result be an automatically generated index.html. The file will be put into a parent folder with the name of the post, which will again be inserted into a generic "posts"-folder. This structure design is created to fit GitHub pages.
+The projects main task is to simplify the process of creating static posts without the need of a server. By passing in a html template and a text document with a syntax that the tool understands, will the result be an automatically generated index.html. The file will be put into a parent folder with the name of the post, which will again be inserted into a generic "posts"-folder. This structure design is created to fit GitHub pages.
 
 ## What have i done so far:
 
