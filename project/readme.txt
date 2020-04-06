@@ -40,10 +40,11 @@ Example start
 //////////////////////
 
 # '# Text'
--
--
-- This extra space will not be counted (because it's between the trigger and the first line of content)
--
+
+'
+'
+'//// This extra space will not be counted (because it's between the trigger and the first line of content)
+'
 This is my first line.
 '
 '
@@ -53,7 +54,7 @@ And because there are two empty lines between this line and the one above, the p
 And same here
 '
 '
--But these extra lines at the end of a section will not be counted (because they're between the last line of content and the next trigger
+'//// But these extra lines at the end of a section will not be counted (because they're between the last line of content and 'the next trigger
 '
 '
 '
@@ -66,7 +67,7 @@ Example end
 
 # '# Title - (int:level)'
 
-Creates a h tag the level provided. For example will a '# Title - 3' create a '<h3>' tag for the content underneath. If no level is provided will the default value be 2.
+Creates a h tag the level provided. For example will a '# Title - 3' create a <h3> tag for the content underneath. If no level is provided will the default value be 2.
 
 # '# Text'
 
@@ -92,16 +93,16 @@ Example end
 
 ### Customized html-tags:
 
-'<code>': If you use the '<code>' tag in your document will it automatically create a styled code-block in your text. You can decide wether or not you want the code block to be an inline (following the text flow) or a block (be in a row for its own). To configure this, add a 'flow' attribute to the code. If you don't will the code automatically be displayed as a block.
+<code>: If you use the <code> tag in your document will it automatically create a styled code-block in your text. You can decide wether or not you want the code block to be an inline (following the text flow) or a block (be in a row for its own). To configure this, add a 'flow' attribute to the code. If you don't will the code automatically be displayed as a block.
 
 Note that this tag does not have syntax highlightning, as it normally will just contain a very short snippet of code (maybe a couple of words). If you want to write more text then use the # Code section-tag.
-Example: '<code flow>myFunc()</code>'
+Example: <code flow>myFunc()</code>
 
-'<quote>': If you use the '<quote>' tag in your document will a styled blockquote be added in the text. Here you can also add a flow-attribute if you want the blockquote to flow with the text. Init styling is block.
-Example: '<quote>I like trains</quote>'
+<quote>: If you use the <quote> tag in your document will a styled blockquote be added in the text. Here you can also add a flow-attribute if you want the blockquote to flow with the text. Init styling is block.
+Example: <quote>I like trains</quote>
 
 ## Example:
 
-How the syntax works: you set a "#" with your desired section afterwards (for example: '# Title'), and all the text afterwards will automatically be picked up as a part of that section.
+How the syntax works: you set a "#" with your desired section afterwards (for example: # Title), and all the text afterwards will automatically be picked up as a part of that section.
 
 Here's a small example of how this works:
