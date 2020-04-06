@@ -1,0 +1,15 @@
+{
+  "name": "easy-static-post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "cpo": "node ez-blog/lib/createPost.js",
+    "cpa": "node ez-blog/lib/createPage.js"
+  },
+  "author": "Mathias Picker",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
+}
