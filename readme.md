@@ -26,9 +26,9 @@ The projects main task is to simplify the process of creating static posts witho
 
 ## What have i done so far: ✅
 
-- Created a working core that parses a template.html file & a text file and creates the html page for the post.
+- Created a working core that parses a template.html file and a text file and creates the html page for the post.
 - Made it possible to update posts.
-- Created 6 options for creating post. 3 of them are mandatory, the rest are optional.
+- Added 6 options for creating post. 3 of them are mandatory, the rest are optional.
 - Added error-handling with user-friendly feedback.
 - Created a couple of syntaxes for writing a post.
 - Created automatic JSON storage which is ordered by date. If a post is updated, will only the content and not the date be updated.
@@ -38,6 +38,7 @@ The projects main task is to simplify the process of creating static posts witho
 
 ## TODO(?) (Ideas): ❓
 
+- Create proper documentaion and explanation for usage.
 - Create an 'updateTemplate()' function that updates all the posts with a new template provided.
 - Create an 'updateJSON()' function, in case the user accidently removes the file.
 - Give user more options; Dark mode for post? Decide how to order JSON?
@@ -47,6 +48,7 @@ The projects main task is to simplify the process of creating static posts witho
 - Maybe add support for different HTML templates like Pug, Handlebars etc.? (probably a hairy goal, but could be fun)
 - Create env-commands for executing program.
 - Learn how to properly create a NPM package.
+- Create a cool website for the project.
 - Set up test enviroments and other practical stuff that i know nothing about.
 - Come up with tons of more ideas.
 
