@@ -1,6 +1,6 @@
 NOTE: This readme is very rough. I've just written down things when i come up with them so i don't forget.
 
-# Post creation
+<b>Post creation</b>
 
 This is a program that allows people to easily have posts on their website without the dependence of a server. This program automatically creates a static page that follows your own custom template. The post will have a pre-defined styling, but you can easily overwrite this in the template file by providing your own css file. The posts init styling will automatically be put above your css style, so that the parts you want to style yourself will be set as the main styling because of CSS's order of precedence.
 
