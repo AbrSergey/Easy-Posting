@@ -18,7 +18,7 @@ However, i am still just a junior developer attending college. I really want to 
 code and communities, and gain knowledge about all the different tools people use when programming together over the web (i am really fresh here, no experience at all).
 
 Therefore i want to seek people that find some excitement in this project, and want to join me on developing it even more.
-I would love to collaborate with people that i can learn from, and maybe create a little group where the main goal is to program this project together.
+I would love to collaborate with people that i can learn from, and maybe create a little group where the main goal is to develop our skills while having fun and experimenting with new things. If enough people are interested, then maybe i can create a Slack/Discord group
 
 If you have any questions, or want to join in on this little open-source project, then send me an 📧 at mathiaswpicker@gmail.com
 
