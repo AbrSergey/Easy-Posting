@@ -39,21 +39,21 @@ Example start
 
 # Text
 
-'
-' - This extra space will not be counted
-'
+
+//// This extra space will not be counted (because it's between the trigger and the first line of content)
+
 This is my first line.
-'
-'
+
+
 And because there are two empty lines between this line and the one above, the page will have extra spacing between these lines
-'
-'
+
+
 And same here
-'
-'
-' - But these extra lines at the end of a section will not be counted
-'
-'
+
+
+//// But these extra lines at the end of a section will not be counted (because they're between the last line of content and the next trigger
+
+
 
 # Text
 
