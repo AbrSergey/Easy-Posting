@@ -41,9 +41,14 @@ The projects main task is to simplify the process of creating static posts witho
 - Create an 'updateTemplate()' function that updates all the posts with a new template provided.
 - Create an 'updateJSON()' function, in case the user accidently removes the file.
 - Give user more options; Dark mode for post? Decide how to order JSON?
-- Enhance the code and get a good structure.
-- Come up with more ideas.
-
+- Add optional navigation overlay on posts?
+- Adding optional "show related post at bottom" feature? And figure out how to create this
+- Enhance the code and improve the structure so that it can easily scale.
+- Maybe add support for different HTML templates like Pug, Handlebars etc.? (probably a hairy goal, but could be fun)
+- Create env-commands for executing program.
+- Learn how to properly create a NPM package.
+- Set up test enviroments and other practical stuff.
+- Come up with tons of more ideas.
 
 
 
