@@ -26,7 +26,7 @@ The projects main task is to simplify the process of creating static posts witho
 
 ## What have i done so far:
 
-- Created a working core that parses a template.html file and a text file.
+- Created a working core that parses a template.html file & a text file and creates the html page for the post.
 - Made it possible to update posts.
 - Added error-handling with user-friendly feedback.
 - Created a couple of syntaxes for writing a post.
