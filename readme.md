@@ -28,6 +28,7 @@ The projects main task is to simplify the process of creating static posts witho
 
 - Created a working core that parses a template.html file & a text file and creates the html page for the post.
 - Made it possible to update posts.
+- Created 6 options for creating post. 3 of them are mandatory, the rest are optional.
 - Added error-handling with user-friendly feedback.
 - Created a couple of syntaxes for writing a post.
 - Created automatic JSON storage which is ordered by date. If a post is updated, will only the content and not the date be updated.
@@ -39,6 +40,7 @@ The projects main task is to simplify the process of creating static posts witho
 
 - Create an 'updateTemplate()' function that updates all the posts with a new template provided.
 - Create an 'updateJSON()' function, in case the user accidently removes the file.
+- Give user more options; Dark mode for post? Decide how to order JSON?
 - Enhance the code and get a good structure.
 - Come up with more ideas.
 
