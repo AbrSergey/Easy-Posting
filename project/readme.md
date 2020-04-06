@@ -21,6 +21,8 @@ Secure a-tags (with a noreferrer)
 
 ### Core-syntax:
 
+N.B: The ' used in the examples are not supposed to be used when actually creating a post document. They are just used for not triggering markdown.
+
 --name: Here you enter the name of your post. This value will be used in the title of the post-page and in the preview-storage.
 
 --introduction: Here you can give a small introduction to the post. Will only be used in the preview-storage.
@@ -37,44 +39,44 @@ Note: The extra breaks will only work between text in a section, so if you add a
 Example start
 //////////////////////
 
-# Text
-
-
-//// This extra space will not be counted (because it's between the trigger and the first line of content)
-
+# '# Text'
+'
+'
+'//// This extra space will not be counted (because it's between the trigger and the first line of content)
+'
 This is my first line.
-
-
+'
+'
 And because there are two empty lines between this line and the one above, the page will have extra spacing between these lines
-
-
+'
+'
 And same here
-
-
-//// But these extra lines at the end of a section will not be counted (because they're between the last line of content and the next trigger
-
-
-
-# Text
-
+'
+'
+'//// But these extra lines at the end of a section will not be counted (because they're between the last line of content and 'the next trigger
+'
+'
+'
+'# Text'
+'
 Some more text here
-
+'
 //////////////////////
 Example end
 
-# Title - (int:level)
+# '# Title - (int:level)'
 
 Creates a h tag the level provided. For example will a '# Title - 3' create a <h3> tag for the content underneath. If no level is provided will the default value be 2.
 
-# Text
+# '# Text'
 
 Creates a normal text-section. In here you can just write text as you normally would, and the program will automatically format it so the setup will be as you wrote.
 
-# Code
+# '# Code'
 
 Creates a big code-block section for everything within this section. Is somewhat similar to the <code> tag in the Customized html-tags below, but will be formated differently and set as a own section.
 
-# Quote
+# '# Quote'
 
 Creates a big quote section and styles it. If you add three lines, ---, to the end will the name afterward be set as the author/quotee of the quote.
 
