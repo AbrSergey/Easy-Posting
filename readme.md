@@ -2,7 +2,7 @@
 
 Welcome to my open source project! Let me explain to you what this is about. 🙌
 
-Note: This project is being worked here and there on as we speak.
+Note: This project is continuously being worked whenever i have time atm.
 
 Recently i've been looking for different projects to work on, and a couple of days ago i found out about Jekyll.
 I became fascinated and inspired by the concept, and thought: "Hmm, something like this would be fun to replicate in NodeJS".
