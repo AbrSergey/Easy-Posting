@@ -40,10 +40,10 @@ Example start
 //////////////////////
 
 # '# Text'
-'
-'
+-
+-
 - This extra space will not be counted (because it's between the trigger and the first line of content)
-'
+-
 This is my first line.
 '
 '
@@ -66,7 +66,7 @@ Example end
 
 # '# Title - (int:level)'
 
-Creates a h tag the level provided. For example will a '# Title - 3' create a <h3> tag for the content underneath. If no level is provided will the default value be 2.
+Creates a h tag the level provided. For example will a '# Title - 3' create a '<h3>' tag for the content underneath. If no level is provided will the default value be 2.
 
 # '# Text'
 
