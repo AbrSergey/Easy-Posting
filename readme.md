@@ -1,4 +1,4 @@
-# Hello there!
+# Hello there! 👋
 
 Welcome to my open source project! Let me tell to you what this is about. 🙌
 
@@ -20,11 +20,11 @@ code and communities, and gain knowledge about all the different tools people us
 Therefore i want to seek people that find some excitement in this project, and want to join me on developing it even more.
 I would love to collaborate with people that i can learn from, and maybe create a little group where the main goal is to develop our skills while having fun and experimenting with new things. If enough people are interested, then maybe i can create a Slack/Discord group
 
-# Project description
+# Project description ℹ️
 
 The projects main task is to simplify the process of creating static posts without the need of a server. By passing in a html template and a text document with a syntax that the tool understands, will the result be an automatically generated index.html. The file will be put into a parent folder with the name of the post, which will again be inserted into a generic "posts"-folder. This structure design is created to fit GitHub pages.
 
-## What have i done so far:
+## What have i done so far: ✅
 
 - Created a working core that parses a template.html file & a text file and creates the html page for the post.
 - Made it possible to update posts.
@@ -36,13 +36,16 @@ The projects main task is to simplify the process of creating static posts witho
 - Created some basic init-styling in CSS for the post-components.
 - Created a Javascript example for the client for fetching the posts.
 
-## TODO(?) (Ideas):
+## TODO(?) (Ideas): ❔
 
 - Create an 'updateTemplate()' function that updates all the posts with a new template provided.
 - Create an 'updateJSON()' function, in case the user accidently removes the file.
 - Give user more options; Dark mode for post? Decide how to order JSON?
 - Enhance the code and get a good structure.
 - Come up with more ideas.
+
+
+### 
 
 If you have any questions, or want to join in on this little open-source project, then send me an 📧 at mathiaswpicker@gmail.com
 
