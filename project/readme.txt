@@ -1,6 +1,6 @@
 NOTE: This readme is very rough. I've just written down things when i come up with them so i don't forget.
 
-<b>Post creation</b>
+Post creation:
 
 This is a program that allows people to easily have posts on their website without the dependence of a server. This program automatically creates a static page that follows your own custom template. The post will have a pre-defined styling, but you can easily overwrite this in the template file by providing your own css file. The posts init styling will automatically be put above your css style, so that the parts you want to style yourself will be set as the main styling because of CSS's order of precedence.
 
@@ -17,7 +17,10 @@ Because HTML-tags are quite easy to understand i didn't see any reason to change
 Some things that this programs does for you:
 Secure a-tags (with a noreferrer)
 
-# Syntax for creating posts:
+
+
+
+Syntax for creating posts:
 
 ### Core-syntax:
 
@@ -27,42 +30,11 @@ N.B: The ' used in the examples are not supposed to be used when actually creati
 
 --introduction: Here you can give a small introduction to the post. Will only be used in the preview-storage.
 
+
 ### Doc-syntax:
 
 Note: None of the syntaxes are space sensitive. So it doesn't really matter if you write # Title - 3, #Title-3, # Title- 3, # Code, #Code etc.
 
-# Formating that doesn't require any syntax
-
-If you want to have a space between to lines of text, simply add two lines between these and the program will automatically insert a <br> here.
-Note: The extra breaks will only work between text in a section, so if you add any extra empty lines on the start or the end of a section, no breaks will be counted.
-
-Example start
-//////////////////////
-
-# Text
-
-
-//// This extra space will not be counted (because it's between the trigger and the first line of content)
-
-This is my first line.
-
-
-And because there are two empty lines between this line and the one above, the page will have extra spacing between these lines
-
-
-And same here
-
-
-//// But these extra lines at the end of a section will not be counted (because they're between the last line of content and the next trigger
-
-
-
-# Text
-
-Some more text here
-
-//////////////////////
-Example end
 
 # Title - (int:level)
 
@@ -90,6 +62,8 @@ Example start
 //////////////////////
 Example end
 
+
+
 ### Customized html-tags:
 
 <code>: If you use the <code> tag in your document will it automatically create a styled code-block in your text. You can decide wether or not you want the code block to be an inline (following the text flow) or a block (be in a row for its own). To configure this, add a 'flow' attribute to the code. If you don't will the code automatically be displayed as a block.
@@ -99,6 +73,42 @@ Example: <code flow>myFunc()</code>
 
 <quote>: If you use the <quote> tag in your document will a styled blockquote be added in the text. Here you can also add a flow-attribute if you want the blockquote to flow with the text. Init styling is block.
 Example: <quote>I like trains</quote>
+
+
+### Formating that doesn't require any syntax
+
+If you want to have a space between to lines of text, simply add two lines between these and the program will automatically insert a <br> here.
+Note: The extra breaks will only work between text in a section, so if you add any extra empty lines on the start or the end of a section, no breaks will be counted.
+
+Example start
+//////////////////////
+
+# Text
+
+
+//// This extra space will not be counted (because it's between the trigger and the first line of content)
+
+This is my first line.
+
+
+And because there are two empty lines between this line and the one above, the page will have extra spacing between these lines
+
+
+And same here
+
+
+//// But these extra lines at the end of a section will not be counted (because they're between the last line of content and the next trigger
+
+
+# Text
+
+Some more text here
+
+//////////////////////
+Example end
+
+
+
 
 ## Example:
 
