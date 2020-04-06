@@ -1,6 +1,6 @@
 # Hello there!
 
-Welcome to my open source project! Let me explain to you what this is all about. 🙌
+Welcome to my open source project! Let me explain to you what this is about. 🙌
 
 Note: This project is being developed on as we speak.
 
@@ -20,7 +20,7 @@ code and communities, and gain knowledge about all the different tools people us
 Therefore i want to seek people that find some excitement in this project, and want to join me on developing it even more.
 I would love to collaborate with people that i can learn from, and maybe create a little group where the main goal is to program this project together.
 
-If you have any questions, or want to join in on this little open-source project, then o send me an 📧 at mathiaswpicker@gmail.com
+If you have any questions, or want to join in on this little open-source project, then send me an 📧 at mathiaswpicker@gmail.com
 
 Have a nice day!
 
