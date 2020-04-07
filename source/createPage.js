@@ -465,4 +465,4 @@ async function createPage(directory, options) {
   }
 }
 
-module.exports = createPage;
+module.exports = { createPage };

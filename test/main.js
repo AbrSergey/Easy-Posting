@@ -1,6 +1,6 @@
 const { createPage } = require('../source/createPage');
 
-createPage(__dirname, {
+const options = {
   // The name of the template HTML file used for creating the post
   template: 'template',
   // The folder where you store your post documents
@@ -26,12 +26,6 @@ createPage(__dirname, {
    * Is false by default.
    */
   update: true
-});
+};
 
-/**
- * TODO? Create an 'updateTemplate()' function that updates all the posts with a new template provided
- */
-
-/**
- * TODO? Create an 'updateJSON()' that adds all posts in the posts folder to the json file.
- */
+createPage(__dirname, options);

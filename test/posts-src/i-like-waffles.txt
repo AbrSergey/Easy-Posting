@@ -45,8 +45,8 @@ This is another title of my blog-post
 # Text
 
 Here i could write some text about something I care about.
-<a href="/posts/first-post/index.html">Click here!!</a>
-Above me is a link that you can click on, and this link works also <a href="list.html">Click for a list</a>.
+<a href="test/posts/first-post/index.html">Click here!!</a>
+Above me is a link that you can click on, and this link works also <a href="#list">Click for a list</a>.
 
 You can also write seperate paragraphs within a section. The program will automatically create a gap for you in the html and css (at the same place you have done in your blog document).
 
