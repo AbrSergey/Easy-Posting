@@ -5,6 +5,7 @@ This is currently being worked on. Some ideas/todos(?) that are currently on pap
 - Let user choose if `<a> tags should have a 'blank' (or maybe newtab) attribute` instead of automatically set target="\_blank" to all link tags created.
 - Make it so that the content of headers shouldn't have to be on the line beneath the trigger? If so, maybe copy the way markdown creates titles (if allowed?)
 
+&nbsp;
 
 # The main idea 💡  
 
@@ -39,7 +40,7 @@ Read through the document to see usage examples.
 
 --introduction: Here you can give a small introduction to the post. Will only be used in the preview-storage.
 
-
+&nbsp;
 
 # Document-syntax 📋  
 
@@ -113,7 +114,7 @@ Creates a big quote section and styles it. If you add three lines (---) to the e
 --- Albert Einstein
 ```
 
-
+&nbsp;
 
 # Customized html-tags 🏷️  
 
@@ -129,7 +130,7 @@ Note that this tag does not have syntax highlightning, as it normally will just 
 
 - `<a>`: If you use the `<a>` (link) tag in your document will they automatically get the href="\_blank" attribute and a noreferrer for safety reasons.
 
-
+&nbsp;
 
 # Formating that doesn't require any syntax 📃  
 
