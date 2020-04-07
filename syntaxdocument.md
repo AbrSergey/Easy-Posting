@@ -12,7 +12,7 @@ This is currently being worked on. Some ideas/todos(?) that are currently on pap
 
 2. [Core syntax](#cs)
 
-3. [Document syntax](#Document-syntax-)
+3. [Document syntax](#document-syntax)
 
 4. [Customized HTML tags](#cht)
 
