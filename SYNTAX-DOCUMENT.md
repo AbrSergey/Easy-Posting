@@ -205,8 +205,7 @@ Some more text here
 
 # Full example of a post
 
-````
-
+```
 --name This is the first blog post i have created
 --introduction You know how this post was created automatically? It's quite cool
 
@@ -268,4 +267,3 @@ and I'm not sure about the universe.”
 --- Albert Einstein
 
 ```
-
