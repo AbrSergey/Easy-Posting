@@ -157,7 +157,11 @@ Note that this tag does not have syntax highlightning, as it normally will just 
 
 `<code flow>addTwoNumbers(3, 14)</code>`
 
+&nbsp;
+
 - `<quote>`: If you use the `<quote>` tag in your document will a styled blockquote be added in the text. Here you can also add a flow-attribute if you want the blockquote to flow with the text. Init styling is block.
+
+&nbsp;
 
 - `<a>`: If you use the `<a>` (link) tag in your document will they automatically get the href="\_blank" attribute and a noreferrer for safety reasons.
 
