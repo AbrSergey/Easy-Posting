@@ -56,7 +56,9 @@ Read through the document to see usage examples.
 &nbsp;
 
 
-# Core-syntax (required at the start of the post)
+# Core-syntax (required)
+
+### This has to be inserted at the the start/top of the post
 
 --name: Here you enter the name of your post. This value will be used in the title of the post-page and in the preview-storage.
 
