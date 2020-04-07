@@ -28,7 +28,7 @@ This is currently being worked on. Some ideas/todos(?) that are currently on pap
 
 # The main idea 
 
-The idea of this syntax is to combine the best parts of HTML, Markdown and normal document writage. From the To create components/section, you simply use the trigger '#' and the name of the component. Everything written beneath the trigger will be added to the section until a new trigger is used.
+The idea of this syntax is to combine the best parts of HTML, Markdown and normal document writage. To create components/section, you simply use the trigger '#' and the name of the component. Everything written beneath the trigger will be added to the section until a new trigger is used.
 
 ### The way the tool reads the syntax can be explained with this little 'dramatization/act'. The tool tells how it thinks when it reads every line of the post document provided by the user 👨‍💻
 
@@ -58,6 +58,7 @@ If you want to read more about summer, then check out <a href="https://no.wikipe
 ```
 
 **Tool**: 
+
 "Okay, lets parse this document.
 
 On the first line i saw the # trigger, so now he probably wants to create a section.
