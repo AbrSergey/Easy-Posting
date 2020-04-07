@@ -4,11 +4,11 @@ The projects main task is to create a tool that simplifies the process of creati
 
 Here is the core idea of how to use the tool:
 
-#### Install the tool
+### Install the tool
 
 `npm install easy-posting`
 
-#### Setup the required files: a template file and a folder containing your text posts.
+### Setup the required files: a template file and a folder containing your text posts.
 
 ##### An example on how a template.html file can look like:
 
@@ -97,7 +97,7 @@ and I'm not sure about the universe.”
               
 ```
 
-#### Import the tool and set up the generator-function
+### Import the tool and set up the generator-function
 
 ```js
 const { createPage } = require('easy-posting')
@@ -114,7 +114,7 @@ createPage(__dirname, options)
 
 ```
 
-#### Done!
+### Done!
 
 Now your root folder will have a folder named posts, which contains everything needed for generated the posts.
 
