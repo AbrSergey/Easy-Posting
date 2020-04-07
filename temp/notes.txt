@@ -24,7 +24,7 @@ Syntax for creating posts:
 
 ### Core-syntax:
 
-N.B: The ' used in the examples are not supposed to be used when actually creating a post document. They are just used for not triggering markdown.
+N.B: The used in the examples are not supposed to be used when actually creating a post document. They are just used for not triggering markdown.
 
 --name: Here you enter the name of your post. This value will be used in the title of the post-page and in the preview-storage.
 

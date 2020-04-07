@@ -79,8 +79,6 @@ async function createPage(directory, options) {
   postname = postname;
   location = location;
 
-  terminal(info('Starting page-creation 🎉'), false, true);
-
   let { extension, update = false } = options;
 
   let postFile;
@@ -212,6 +210,8 @@ async function createPage(directory, options) {
    *
    */
 
+  terminal(info('Starting page-creation 🎉'), false, true);
+
   const postCoreInfo = {
     url: 'posts/' + postname,
     name: '',
@@ -231,10 +231,34 @@ async function createPage(directory, options) {
   });
 
   for await (const line of rlPost) {
-    if (line.includes('--name')) {
+    if (!line.startsWith('--name') && !line.startsWith('--introduction')) {
+      if (postCoreInfo.name.length === 0) {
+        terminal(
+          error(
+            'ERROR: You must provide a name for the post at the beginning. Use --name: to do this.'
+          ),
+          true,
+          true
+        );
+      }
+      if (postCoreInfo.introduction.length === 0) {
+        terminal(
+          error(
+            'ERROR: You must provide an introduction for the post at the beginning. Use --name: to do this.'
+          ),
+          true,
+          true
+        );
+      }
+
+      terminal(warning('Process was stopped.'));
+      return;
+    }
+
+    if (line.startsWith('--name')) {
       postCoreInfo.name = line.replace('--name', '').trim();
     }
-    if (line.includes('--introduction')) {
+    if (line.startsWith('--introduction')) {
       postCoreInfo.introduction = line.replace('--introduction', '').trim();
     }
 
