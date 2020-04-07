@@ -23,7 +23,7 @@ This is currently being worked on. Some ideas/todos(?) that are currently on pap
 
 &nbsp;
 
-💡
+# 💡
 # The main idea 
 
 The idea of this syntax is to combine the best parts of HTML, Markdown and normal document writage. To create components/section, you simply
