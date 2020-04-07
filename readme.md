@@ -2,6 +2,8 @@
 
 The projects main task is to create a tool that simplifies the process of creating static posts without the need of a server. By passing in a html template and a text document with a syntax that the tool understands, will the output be an automatically generated index.html. The way the template works, is that you can create a normal html site with your own custom, and then insert a `<POST>` tag where you want the post to be inserted. The file will be put into a parent folder with the name of the post, which will again be inserted into a generic "posts"-folder. This structure design is created to fit GitHub pages.
 
+### Extra reading material: [SYNTAX-DOCUMENT.md](https://github.com/MathiasWP/Easy-Posting/blob/master/SYNTAX-DOCUMENT.md)
+
 ## Here is the core idea of how to the tool can be used:
 
 ### Install the tool
