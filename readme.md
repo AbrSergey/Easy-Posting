@@ -81,6 +81,7 @@ Now your root folder will have a folder named posts, which contains everything n
 ## What have i done so far: ✅
 
 - Created a working core that parses a template.html file and a text file and creates the html page for the post.
+- Created a working file-structure that get's automatically implemented.
 - Made it possible to update posts.
 - Added 6 options for creating post. 3 of them are mandatory, the rest are optional.
 - Added error-handling with user-friendly feedback.
