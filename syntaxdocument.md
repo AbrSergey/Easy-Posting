@@ -1,10 +1,23 @@
-&nbsp;
 # Document explaining the syntax used for writing posts 📝
 
 This is currently being worked on. Some ideas/todos(?) that are currently on paper:
 
 - Let user choose if `<a> tags should have a 'blank' (or maybe newtab) attribute` instead of automatically set target="\_blank" to all link tags created.
 - Make it so that the content of headers shouldn't have to be on the line beneath the trigger? If so, maybe copy the way markdown creates titles (if allowed?)
+
+
+### Browse document
+
+1. [Main idea](#the-main-idea)
+
+2. [Core syntax](#core-syntax)
+
+3. [Document syntax](#document-syntax)
+
+4. [Syntax that doesn't require symbols](#syntax-that-doesn't-require-symbols)
+
+5. [Full example of a post](#full-example-of–a-post)
+
 
 &nbsp;
 
@@ -23,7 +36,7 @@ Read through the document to see usage examples.
 - Quote
 
 
-### Triggers that don't require any syntax: 
+### Syntax that doesn't require symbols: 
 
 - Extra space between lines in text (breakpoint).
 
@@ -141,7 +154,7 @@ Note that this tag does not have syntax highlightning, as it normally will just 
 
 &nbsp;
 
-# Formating that doesn't require any syntax 📃  
+# Syntax that doesn't require symbols 📃  
 
 If you want to have a space between to lines of text, simply add two lines between these and the program will automatically insert a `<br>` here.
 Note: The extra breaks will only work between text in a section, so if you add any extra empty lines on the start or the end of a section, no breaks will be counted.
@@ -168,3 +181,74 @@ And same here
 Some more text here
 
 ```
+
+&nbsp;
+
+&nbsp;
+
+# Full example of a post 📑
+
+````
+
+--name This is the first blog post i have created
+--introduction You know how this post was created automatically? It's quite cool
+
+# Title - 1
+
+This is the title of post
+
+# Text
+
+Here i could write some text about something I care about.
+<a href="/test/posts/i-like-waffles/">Click here!!</a>
+Above me is a link that you can click on, and this link works also <a href="/test/posts/i-like-waffles/">Click for a list</a>.
+
+
+You can also write seperate paragraphs within a section. To do this, simply add 2 empty lines where you want the gap to be created (done right above this line)
+
+#Title-3
+
+Here is some code
+
+# Code
+
+function sayHello() {
+    return 'Hello';
+}
+
+
+# Title
+
+New title again, should be h2
+
+
+# Quote
+
+“Two things are infinite: the universe and human stupidity; 
+and I'm not sure about the universe.”
+
+--- Albert Einstein
+
+
+# Title - 6
+
+This is another title of my blog-post
+
+# Text
+
+Here i could write some text about something I care about.
+<a href="/test/posts/i-like-waffles/">Click here!!</a>
+Above me is a link that you can click on, and this link works also <a href="#list">Click for a list</a>.
+
+You can also write seperate paragraphs within a section. The program will automatically create a gap for you in the html and css (at the same place you have done in your blog document).
+
+
+# Quote
+
+“Two things are infinite: the universe and human stupidity; 
+and I'm not sure about the universe.”
+
+--- Albert Einstein
+
+```
+
