@@ -1,5 +1,7 @@
 # Document explaining the syntax used for writing posts 📝
 
+#### Note: I am not saying that this syntax is the easiest/best way to create a syntax that combines HTML and 'normal' writing. If you have any ideas, feedback or criticism, then please create an issue and write your input.
+
 This is currently being worked on. Some ideas/todos(?) that are currently on paper:
 
 - Let user choose if `<a> tags should have a 'blank' (or maybe newtab) attribute` instead of automatically set target="\_blank" to all link tags created.
