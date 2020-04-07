@@ -1,9 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-/*  FUNCTIONS FOR SETTING COLOR ON FEEDBACK IN TERMINAL */
-const { error, warning, terminal } = require('../feedback/terminal');
-
 /**
  *
  * @param {Directory} directory - The place where the option is supposed to be
@@ -21,12 +18,7 @@ async function doesExist(directory, file, type) {
       return false;
     }
   } catch (err) {
-    terminal(
-      `${error(`ERROR: The ${type}`)} ${file} ${error(
-        'could not be found in'
-      )} ${directory}`
-    );
-    terminal(warning('Process was stopped...'));
+    throw new Error(err);
   }
 }
 

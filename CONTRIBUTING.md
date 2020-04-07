@@ -1,4 +1,5 @@
-Contributing
+# Contributing
+
 Pull requests are awesome. If you have fixes/ideas for the project, then feel free to send a pull request. All requests will be checked.
 
 Steps for contrinbuting:
@@ -14,5 +15,5 @@ At this point you're waiting on us. We like to at least comment on pull requests
 Some things that will increase the chance that your pull request is accepted:
 
 Write tests.
-Follow our style guide.
+Write readable code.
 Write a good commit message.
