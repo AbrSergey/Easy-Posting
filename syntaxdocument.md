@@ -33,6 +33,7 @@ Read through the document to see usage examples.
 - `<quote>`
 
 &nbsp;
+&nbsp;
 
 # Core-syntax (required at the start of the post) ⚙️  
 
@@ -40,6 +41,7 @@ Read through the document to see usage examples.
 
 --introduction: Here you can give a small introduction to the post. Will only be used in the preview-storage.
 
+&nbsp;
 &nbsp;
 
 # Document-syntax 📋  
@@ -115,6 +117,7 @@ Creates a big quote section and styles it. If you add three lines (---) to the e
 ```
 
 &nbsp;
+&nbsp;
 
 # Customized html-tags 🏷️  
 
@@ -130,6 +133,7 @@ Note that this tag does not have syntax highlightning, as it normally will just 
 
 - `<a>`: If you use the `<a>` (link) tag in your document will they automatically get the href="\_blank" attribute and a noreferrer for safety reasons.
 
+&nbsp;
 &nbsp;
 
 # Formating that doesn't require any syntax 📃  
