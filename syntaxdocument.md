@@ -27,7 +27,8 @@ This is currently being worked on. Some ideas/todos(?) that are currently on pap
 # The main idea 
 
 The idea of this syntax is to combine the best parts of HTML, Markdown and normal document writage. To create components/section, you simply
-use the trigger '#' and add the name of the component afterwards. Everything written beneath a trigger will be added to the sectio until a new trigger is used.
+use the trigger '#' and the name of the component. Everything written beneath the trigger will be added to the sectio until a new trigger is used.
+
 Read through the document to see usage examples.
 
 
@@ -42,6 +43,7 @@ Read through the document to see usage examples.
 ### Syntax that doesn't require symbols: 
 
 - Extra space between lines in text (breakpoint).
+
 
 ### HTML tags that are customized with the too:
 
