@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "cpo": "node ez-blog/lib/createPost.js",
-    "cpa": "node ez-blog/lib/createPage.js"
+    "start": "node main.js"
   },
   "author": "Mathias Picker",
   "license": "ISC",
