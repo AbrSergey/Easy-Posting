@@ -9,8 +9,8 @@ Here is the core idea of how to use the tool:
 `npm install easy-posting`
 
 #### Setup the required files: a template file and a folder containing your text posts.
-```
 
+```
 --root
    |
    |---- mytemplate.html
@@ -32,7 +32,6 @@ Here is the core idea of how to use the tool:
 #### Import the tool and set up the generator-function
 
 ```
-
 const { createPage } = require('easy-posting')
 
 // Set up an options object
@@ -76,6 +75,7 @@ Now your root folder will have a folder named posts, which contains everything n
            |
            |
            |---- s.css // Stylesheet for the components in the post
+           
 ``` 
 
 ## What have i done so far: ✅
