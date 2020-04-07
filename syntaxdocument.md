@@ -1,3 +1,4 @@
+&nbsp;
 # Document explaining the syntax used for writing posts 📝
 
 This is currently being worked on. Some ideas/todos(?) that are currently on paper:
@@ -33,6 +34,7 @@ Read through the document to see usage examples.
 - `<quote>`
 
 &nbsp;
+
 &nbsp;
 
 # Core-syntax (required at the start of the post) ⚙️  
