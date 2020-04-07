@@ -260,7 +260,7 @@ async function createPost(directory, sourcefolder, postFile) {
 
         for (let word of line.split(' ')) {
           if (word.includes('<a')) {
-            word = word.replace('<a', '<a noreferrer="_blank"');
+            word = word.replace('<a', '<a noreferrer="_blank" target="_blank"');
           }
           newLine += ` ${word}`;
         }
