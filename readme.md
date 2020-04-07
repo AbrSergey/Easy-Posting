@@ -4,9 +4,13 @@ The projects main task is to create a tool that simplifies the process of creati
 
 Here is the core idea of how to the tool will be used:
 
+&nbsp;
+
 ### Install the tool
 
 `npm install easy-posting`
+
+&nbsp;
 
 ### Setup the required files: a template file and a folder containing your text posts.
 
@@ -99,6 +103,8 @@ and I'm not sure about the universe.”
 
 ```
 
+&nbsp;
+
 ### Import the tool and set up the generator-function
 
 ```js
@@ -114,6 +120,8 @@ const options = {
 // Run generator function
 createPage(__dirname, options);
 ```
+
+&nbsp;
 
 ### Done!
 
@@ -147,6 +155,10 @@ Now your root folder will have a folder named posts, which contains everything n
 
 ```
 
+&nbsp;
+
+&nbsp;
+
 ## What have i done so far: ✅
 
 - Created a working core that parses a template.html file and a text file and creates the html page for the post.
@@ -159,6 +171,10 @@ Now your root folder will have a folder named posts, which contains everything n
 - Added Highlight.js as a library on the client side for prettifying code-blocks.
 - Created some basic init-styling in CSS for the post-components.
 - Created a Javascript example for the client for fetching the posts.
+
+&nbsp;
+
+&nbsp;
 
 ## TODO(?) (Ideas): ❓
 
@@ -176,6 +192,10 @@ Now your root folder will have a folder named posts, which contains everything n
 - Set up test enviroments and other practical stuff that i know nothing about.
 - Come up with tons of more ideas.
 - Have fun & learn
+
+&nbsp;
+
+&nbsp;
 
 # Hello there! 👋
 
