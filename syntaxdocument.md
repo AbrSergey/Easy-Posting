@@ -8,22 +8,23 @@ This is currently being worked on. Some ideas/todos(?) that are currently on pap
 
 ### Browse document
 
-1. [Main idea](#tmi)
+1. [Main idea](#the-main-idea)
 
-2. [Core syntax](#cs)
+2. [Core syntax](#core-syntax)
 
 3. [Document syntax](#document-syntax)
 
-4. [Customized HTML tags](#cht)
+4. [Customized HTML tags](#customized-html-tags)
 
-5. [Syntax that doesn't require symbols](#stdrs)
+5. [Syntax that doesn't require symbols](#syntax-that-doesnt-require-symbols)
 
-6. [Full example of a post](#feoap)
+6. [Full example of a post](#full-example-of-a-post)
 
 
 &nbsp;
 
-# The main idea 💡
+💡
+# The main idea 
 
 The idea of this syntax is to combine the best parts of HTML, Markdown and normal document writage. To create components/section, you simply
 use the trigger '#' and add the name of the component afterwards. Everything written beneath a trigger will be added to the sectio until a new trigger is used.
@@ -52,7 +53,8 @@ Read through the document to see usage examples.
 
 &nbsp;
 
-# Core-syntax (required at the start of the post) ⚙️
+⚙️
+# Core-syntax (required at the start of the post)
 
 --name: Here you enter the name of your post. This value will be used in the title of the post-page and in the preview-storage.
 
@@ -62,6 +64,7 @@ Read through the document to see usage examples.
 
 &nbsp;
 
+📝
 # Document-syntax 
 
 Note: None of the syntaxes are space sensitive. So it doesn't really matter if you write # Title - 3, #Title-3, # Title- 3, # Code, #Code etc.
@@ -138,7 +141,8 @@ Creates a big quote section and styles it. If you add three lines (---) to the e
 
 &nbsp;
 
-# Customized html-tags 🏷️
+🏷️
+# Customized html-tags
 
 - `<code>`: If you use the `<code>` tag in your document will it automatically create a styled code-block in your text. You can decide wether or not you want the code block to be an inline (following the text flow) or a block (be in a row for its own). To configure this, add a 'flow' attribute to the code. If you don't will the code automatically be displayed as a block.
 
@@ -156,7 +160,8 @@ Note that this tag does not have syntax highlightning, as it normally will just 
 
 &nbsp;
 
-# Syntax that doesn't require symbols 📃
+📃
+# Syntax that doesn't require symbols
 
 If you want to have a space between to lines of text, simply add two lines between these and the program will automatically insert a `<br>` here.
 Note: The extra breaks will only work between text in a section, so if you add any extra empty lines on the start or the end of a section, no breaks will be counted.
@@ -188,7 +193,8 @@ Some more text here
 
 &nbsp;
 
-# Full example of a post 📑
+📑
+# Full example of a post
 
 ````
 
