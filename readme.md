@@ -1,6 +1,6 @@
 # Project description ℹ️
 
-The projects main task is to create a tool that simplifies the process of creating static posts without the need of a server. By passing in a html template and a text document with a syntax that the tool understands, will the output be an automatically generated index.html. The way the template works, is that you can create a normal html site with your own custom, and then insert a `<POST>` tag where you want the post to be inserted. The file will be put into a parent folder with the name of the post, which will again be inserted into a generic "posts"-folder. This structure design is created to fit GitHub pages. 
+The projects main task is to create a tool that simplifies the process of creating static posts without the need of a server. By passing in a html template and a text document with a syntax that the tool understands, will the output be an automatically generated index.html. The way the template works, is that you can create a normal html site with your own custom, and then insert a `<POST>` tag where you want the post to be inserted. The file will be put into a parent folder with the name of the post, which will again be inserted into a generic "posts"-folder. This structure design is created to fit GitHub pages.
 
 Here is the core idea of how to the tool will be used:
 
@@ -71,7 +71,7 @@ New title again, should be an h2 tag since no level is set. Underneath me is a q
 
 # Quote
 
-“Two things are infinite: the universe and human stupidity; 
+“Two things are infinite: the universe and human stupidity;
 and I'm not sure about the universe.”
 
 --- Albert Einstein
@@ -96,24 +96,23 @@ and I'm not sure about the universe.”
               |
               |
               |----- post_about_waffles.txt
-              
+
 ```
 
 ### Import the tool and set up the generator-function
 
 ```js
-const { createPage } = require('easy-posting')
+const { createPage } = require('easy-posting');
 
 // Set up an options object
 const options = {
   template: 'mytemplate',
   sourcefolder: 'posts-source',
   postname: 'post_about_waffles'
-}
+};
 
 // Run generator function
-createPage(__dirname, options)
-
+createPage(__dirname, options);
 ```
 
 ### Done!
@@ -145,8 +144,8 @@ Now your root folder will have a folder named posts, which contains everything n
            |
            |
            |---- s.css // Stylesheet for the components in the post
-           
-``` 
+
+```
 
 ## What have i done so far: ✅
 
@@ -178,7 +177,6 @@ Now your root folder will have a folder named posts, which contains everything n
 - Come up with tons of more ideas.
 - Have fun & learn
 
-
 # Hello there! 👋
 
 Welcome to my open source project! Let me tell to you what this is about. 🙌
@@ -199,7 +197,6 @@ code and communities, and gain knowledge about all the different tools people us
 
 Therefore i want to seek people that find some excitement in this project, and want to join me on developing it even more.
 I would love to collaborate with people that i can learn from, and maybe create a little group where the main goal is to develop our skills while having fun and experimenting with new things. If enough people are interested, then maybe i can create a Slack/Discord group 🤓👨‍💻
-
 
 #### If you have any questions, or want to join in on this little open-source project, then send me an 📧 at mathiaswpicker@gmail.com
 
