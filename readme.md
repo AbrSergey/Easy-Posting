@@ -12,8 +12,7 @@ Here is the core idea of how to use the tool:
 
 ##### An example on how a template.html file can look like:
 
-```
-
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,12 +29,12 @@ Here is the core idea of how to use the tool:
     <footer>This is my footer</footer>
   </body>
 </html>
-
 ```
 
 ##### An example on how a text post can look like:
 
 ```
+
 --name This is the first blog post i have created
 --introduction You know how this post was created automatically? It's quite cool
 
@@ -74,7 +73,6 @@ New title again, should be an h2 tag since no level is set. Underneath me is a q
 and I'm not sure about the universe.”
 
 --- Albert Einstein
-
 
 ```
 
