@@ -33,7 +33,9 @@ The idea of this syntax is to combine the best parts of HTML, Markdown and norma
 ## The way the tool reads the syntax can be explained with this little 'dramatization/act'. The tool tells how it thinks when it reads every line of the post document provided by the user 👨‍💻
 
 **User**: 
-"Okay,i want to create a title, write some text and add a quote at the end of my post":
+"Okay, i want to create a title, write some text and add a quote at the end of my post."
+
+*what the user writes:*
 
 ```
 # Title - 3
