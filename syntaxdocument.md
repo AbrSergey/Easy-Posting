@@ -31,7 +31,7 @@ Read through the document to see usage examples.
 - `<code>`
 - `<quote>`
 
-
+&nbsp;
 
 # Core-syntax (required at the start of the post) ⚙️  
 
