@@ -33,6 +33,8 @@ Here is the core idea of how to use the tool:
 
 ##### An example on how a text post can look like:
 
+Note: One of the core principles for the post-syntax is to combine the easy parts of the HTML language and the easy parts of writing something like a normal document. As you can see in the example is the syntax for creating a link-tag the same as in HTML. However if you want to create paragraph spacing, then the way to do that is by giving a double-line space between the paragraphs. And to create specific components, as Title, (normal) Text, Code-blocks with styling or Quotes, you just use the #-trigger to define the section. Everything afterwards will be added into that component until a new one is defined.
+
 ```
 
 --name This is the first blog post i have created
