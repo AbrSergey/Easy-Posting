@@ -48,7 +48,7 @@ createPage(__dirname, options)
 
 #### Done!
 
-Now your root folder will have a folder named posts, which contains everything needed for generated posts.
+Now your root folder will have a folder named posts, which contains everything needed for generated the posts.
 
 ```
 
