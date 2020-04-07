@@ -31,7 +31,7 @@ Here is the core idea of how to use the tool:
 
 #### Import the tool and set up the generator-function
 
-```
+```js
 const { createPage } = require('easy-posting')
 
 // Set up an options object
