@@ -44,13 +44,12 @@ Read through the document to see usage examples.
 - Extra space between lines in text (breakpoint).
 
 
-### HTML tags that are customized with the too:
+### HTML tags that are customized by the tool:
 
 - `<a>`
 - `<code>`
 - `<quote>`
 
-&nbsp;
 
 &nbsp;
 
