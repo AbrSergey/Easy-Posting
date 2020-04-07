@@ -8,8 +8,9 @@ Here is the core idea of how to use the tool:
 
 `npm install easy-posting`
 
-#### Have a template file and a folder containing your posts in the root of your project
+#### Setup the required files: a template file and a folder containing your text posts.
 ```
+
 --root
    |
    |---- mytemplate.html
@@ -25,15 +26,16 @@ Here is the core idea of how to use the tool:
               |
               |
               |----- post_about_waffles.txt
+              
 ```
 
 #### Import the tool and set up the generator-function
 
 ```
+
 const { createPage } = require('easy-posting')
 
 // Set up an options object
-
 const options = {
   template: 'mytemplate',
   sourcefolder: 'posts-source',
@@ -42,12 +44,15 @@ const options = {
 
 // Run generator function
 createPage(__dirname, options)
+
 ```
 
 #### Done!
 
-Now your root folder will have a folder named posts, which contains everything needed for the posts you generate. 
+Now your root folder will have a folder named posts, which contains everything needed for generated posts.
+
 ```
+
 --root
    |
    |
@@ -64,7 +69,7 @@ Now your root folder will have a folder named posts, which contains everything n
            |
            |
            |
-           |---- allPosts.jon // json file containing preview-info of all posts
+           |---- allPosts.json // json file containing preview-info of all posts
            |
            |
            |---- c.js // Client JS (contains init function for Highlight.js)
