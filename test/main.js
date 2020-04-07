@@ -1,4 +1,4 @@
-const { createPage } = require('../project/app');
+const { createPage } = require('../source/createPage');
 
 createPage(__dirname, {
   // The name of the template HTML file used for creating the post
