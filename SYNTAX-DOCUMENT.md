@@ -30,8 +30,45 @@ This is currently being worked on. Some ideas/todos(?) that are currently on pap
 
 The idea of this syntax is to combine the best parts of HTML, Markdown and normal document writage. From the To create components/section, you simply use the trigger '#' and the name of the component. Everything written beneath the trigger will be added to the section until a new trigger is used.
 
-Read through the document to see usage examples.
+## The way the tool reads the syntax can be explained with this little 'dramatization/act'. The tool tells how it thinks when it reads every line of the post document provided by the user 👨‍💻
 
+**User**: 
+"Okay,i want to create a title, write some text and add a quote at the end of my post":
+
+```
+# Title - 3
+Summer is my favourite season.
+
+# Text
+The reason i like summer so much is because of the warm weather. 
+I also enjoy swimming in salt water.
+
+
+If you want to read more about summer, then check out <a href="https://no.wikipedia.org/wiki/Summer">Summer Wikipedia page</a>
+
+
+
+# Quote
+
+
+“What good is the warmth of summer, without the cold of winter to give it sweetness.”
+--― John Steinbeck
+```
+
+**Tool**: 
+"Okay, lets parse this document.
+
+On the first line i saw the # trigger, so now he probably wants to create a section.
+I saw the word Title after the trigger, so yeah, he 100% wants to create a title. He also said that the title should have a size of 3, so i'll create a `<h3>` tag. I now go into TITLE-MODE, and everything i read next will be inserted into the title.
+    
+Ey, another # trigger! And now he wants to create a section again, this time it's a text component. I'm now done being in TITLE-MODE, so the `<h3>` tag can be closed and get added to the HTML-code for this post. Now because he wants to create a text component i'll go into TEXT-MODE and create a section with a class of "text". The first line is some text, so i'll add that into a `<p>` tag. The next line is a seperate line, so i'll add that line into a seperate `<p>` tag so that the post will look the same on the HTML page as it does here. I now see an empty line with no content. I also see that the next line is also an empty line, so i'll tell the HTML code that i want a `<br>` tag to create extra space. On the line beneath i see some text and an `<a>` tag. I have no problem working with HTML code. Actually i like it so much that i'll add some attributes to it to make it even more practical and safe. 
+
+Okay, after this i see another empty line. And hey, the next line is also empty! Maybe i should create a `<br>` tag again? But wait, hold up, the next line is empty aswell. And after that line i see a # trigger and a valid syntax? Oh, that means that these empty lines were at the end of a section. To be honest, i don't really care about these empty lines, so i won't add a `<br>` tag here. The margins between sections in my CSS-file are enough space already.
+
+Now that i've managed to dodge the useless empty lines, i'll keep parsing the text. Now the user wants a quote block, so i'll go out of TEXT-MODE, add the content to the HTML-code and go into QUOTE-MODE. But hey, now i see two empty lines again. But as with the empty lines at the end of a section, i also think that empty lines at the start of a section is silly. So i won't add a `<br>` here either. I read the next line and add the text to the quote-block. Oh hey, i see a friend of mine when it comes to quote-blocks! The '---' trigger. This means that the text after this trigger is supposed to be the quotee of the text. I'll add this content into a different styled element within the code-block so that it looks fancier.
+
+After this i see that there's no more text in the document. I'll go out of my last mode, QUOTE-MODE, and add the content from this section to the HTML-code aswell. Now i'll send the fully created HTML code of this post to where the user added the `<POST>` tag in the template file. My here job is done. 🥳"
+  
 
 ### Currently available triggers: 
 
@@ -176,7 +213,8 @@ Note that this tag does not have syntax highlightning, as it normally will just 
 # Syntax that doesn't require symbols
 
 If you want to have a space between to lines of text, simply add two lines between these and the program will automatically insert a `<br>` here.
-Note: The extra breaks will only work between text in a section, so if you add any extra empty lines on the start or the end of a section, no breaks will be counted.
+
+Note: The extra breaks will only work between text in a section, so if you add any extra empty lines on the start or the end of a section, no breaks will be counted. To escape this, use &nbsp; if you want extra space on these places aswell.
 
 #### Example
 
