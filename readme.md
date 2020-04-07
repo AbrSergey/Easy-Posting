@@ -86,7 +86,7 @@ Now your root folder will have a folder named posts, which contains everything n
 - Added 6 options for creating post. 3 of them are mandatory, the rest are optional.
 - Added error-handling with user-friendly feedback.
 - Created a couple of syntaxes for writing a post.
-- Created automatic JSON storage which is ordered by date. If a post is updated, will only the content and not the date be updated.
+- Created automatic JSON storage which is ordered by date. If a post is updated will only the content and not the date become updated.
 - Added Highlight.js as a library on the client side for prettifying code-blocks.
 - Created some basic init-styling in CSS for the post-components.
 - Created a Javascript example for the client for fetching the posts.
