@@ -4,7 +4,7 @@ The projects main task is to create a tool that simplifies the process of creati
 
 ### Extra reading material: [SYNTAX-DOCUMENT.md](https://github.com/MathiasWP/Easy-Posting/blob/master/SYNTAX-DOCUMENT.md)
 
-## Here is the core idea of how to the tool can be used:
+## Here is the core idea of how to the tool can be used 💡
 
 ### Install the tool
 
