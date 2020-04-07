@@ -9,7 +9,7 @@ Here is the core idea of how to use the tool:
 `npm install easy-posting`
 
 #### Have a template file and a folder containing your posts in the root of your project
-
+```
 --root
    |
    |---- mytemplate.html
@@ -26,11 +26,11 @@ Here is the core idea of how to use the tool:
               |
               |
               |----- post_about_waffles.txt
-
+```
 
 #### Import the tool and set up the generator-function
 
-````
+```
 const { createPage } = require('easy-posting')
 
 // Set up an options object
