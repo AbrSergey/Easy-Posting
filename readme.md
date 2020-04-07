@@ -21,7 +21,6 @@ Here is the core idea of how to use the tool:
               |----- my_first_blog_post.txt
               |
               |
-              |
               |----- another_post.md
               |
               |
