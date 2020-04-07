@@ -26,8 +26,7 @@ This is currently being worked on. Some ideas/todos(?) that are currently on pap
 
 # The main idea 
 
-The idea of this syntax is to combine the best parts of HTML, Markdown and normal document writage. To create components/section, you simply
-use the trigger '#' and the name of the component. Everything written beneath the trigger will be added to the sectio until a new trigger is used.
+The idea of this syntax is to combine the best parts of HTML, Markdown and normal document writage. From the To create components/section, you simply use the trigger '#' and the name of the component. Everything written beneath the trigger will be added to the section until a new trigger is used.
 
 Read through the document to see usage examples.
 
@@ -147,6 +146,8 @@ Creates a big quote section and styles it. If you add three lines (---) to the e
 
 
 # Customized html-tags
+
+### All HTML tags are supported in the syntax for the posts. You can use attributes like id, class, style etc for the tags you use. Some tags (and custom versions) are already customized by the tool:
 
 - `<code>`: If you use the `<code>` tag in your document will it automatically create a styled code-block in your text. You can decide wether or not you want the code block to be an inline (following the text flow) or a block (be in a row for its own). To configure this, add a 'flow' attribute to the code. If you don't will the code automatically be displayed as a block.
 
