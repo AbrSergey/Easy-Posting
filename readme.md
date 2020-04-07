@@ -10,6 +10,76 @@ Here is the core idea of how to use the tool:
 
 #### Setup the required files: a template file and a folder containing your text posts.
 
+##### An example on how a template.html file can look like:
+
+```
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My personal blog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>This is my blog-page</nav>
+
+    <POST>
+
+    <footer>This is my footer</footer>
+  </body>
+</html>
+
+```
+
+##### An example on how a text post can look like:
+
+```
+--name This is the first blog post i have created
+--introduction You know how this post was created automatically? It's quite cool
+
+# Title - 1
+
+This is the title of post
+
+# Text
+
+Here i could write some text about something I care about.
+<a href="/posts/i-like-pancakes/">Click here!!</a>
+Above me is a link that you can click on, and this link works also <a href="/posts/i-like-pancakes/">Click for a list</a>.
+
+
+You can also write seperate paragraphs within a section. To do this, simply add 2 empty lines where you want the gap to be created (done right above this line)
+
+#Title-3
+
+Here is some code
+
+# Code
+
+function sayHello() {
+    return 'Hello';
+}
+
+
+# Title
+
+New title again, should be an h2 tag since no level is set. Underneath me is a quote.
+
+
+# Quote
+
+“Two things are infinite: the universe and human stupidity; 
+and I'm not sure about the universe.”
+
+--- Albert Einstein
+
+
+```
+
+#### How the file structure should look like:
+
 ```
 --root
    |
