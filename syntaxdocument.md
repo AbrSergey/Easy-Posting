@@ -8,9 +8,9 @@ This is currently being worked on. Some ideas/todos(?) that are currently on pap
 
 ### Browse document
 
-1. [Main idea](#the-main-idea)
+1. [Main idea](#the-main-idea-💡)
 
-2. [Core syntax](#core-syntax)
+2. [Core syntax](#core-syntax-⚙️)
 
 3. [Document syntax](#document-syntax)
 
@@ -21,7 +21,7 @@ This is currently being worked on. Some ideas/todos(?) that are currently on pap
 
 &nbsp;
 
-# The main idea 💡  
+# The main idea 💡
 
 The idea of this syntax is to combine the best parts of HTML, Markdown and normal document writage. To create components/section, you simply
 use the trigger '#' and add the name of the component afterwards. Everything written beneath a trigger will be added to the sectio until a new trigger is used.
@@ -50,7 +50,7 @@ Read through the document to see usage examples.
 
 &nbsp;
 
-# Core-syntax (required at the start of the post) ⚙️  
+# Core-syntax (required at the start of the post) ⚙️
 
 --name: Here you enter the name of your post. This value will be used in the title of the post-page and in the preview-storage.
 
